@@ -1,0 +1,17 @@
+.landingPage{
+    display: flex;
+    height: 100%;
+}
+
+.drawer{
+    flex: 20%;
+}
+
+.smalldrawer{
+   flex: 6%; 
+}
+
+.mainPage{
+    flex: 95%;
+    background-color: #E5E5E5;
+}

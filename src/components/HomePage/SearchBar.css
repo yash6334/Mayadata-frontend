@@ -1,0 +1,26 @@
+.searchBar{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0rem;
+}
+
+input#search {
+    height: 1rem;
+    background-image: url('../../assets/icons/search.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    border: none;
+    width: 10rem;
+    border-bottom: 1px solid black;
+}
+
+input#from, input#to {
+    height: 1rem;
+    width: 10rem;
+    border: none;
+    border-bottom: 1px solid black;
+}

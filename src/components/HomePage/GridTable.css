@@ -1,0 +1,38 @@
+.tableRoot{
+    height: auto;
+    width: 90%;
+    margin: 3rem auto;
+    background-color: white;
+    display: grid;
+}
+
+td{
+    padding: 1rem;
+}
+
+thead{
+    color: #1E5F74;
+}
+
+input#name, input#number, input#start, input#end{
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input#date{
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input#name:hover, input#number:hover, input#date:hover, input#start:hover, input#end:hover{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input#name:focus, input#number:hover, input#date:hover, input#start:hover, input#end:hover{
+    border: none;
+    border-bottom: 1px solid black;
+}
